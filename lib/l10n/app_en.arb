@@ -1,0 +1,321 @@
+{
+  "@@locale": "en",
+  "languageHeading": "Language",
+  "languageEnglish": "English",
+  "languageHybridChip": "EN + اردو",
+  "appTitle": "Bawarchi App",
+  "splashSubtitle": "Culinary Excellence",
+  "getStartedLogin": "Login",
+  "getStartedSignUpChef": "Sign up as a Chef",
+  "getStartedSignUpUser": "Sign up as a User",
+  "exitAppTitle": "Exit App",
+  "exitAppMessage": "Do you really want to exit the app?",
+  "exitNo": "No",
+  "exitYes": "Yes",
+  "welcomeBack": "Welcome Back",
+  "signInContinue": "Sign in to continue",
+  "email": "Email",
+  "password": "Password",
+  "forgotPassword": "Forgot Password?",
+  "login": "Login",
+  "fillAllFields": "Please fill all fields",
+  "forgotEnterEmail": "please enter your email!",
+  "resetEmailSent": "Reset password email sent",
+  "enterCorrectEmail": "enter correct email",
+  "resetErrorTryLater": "An error occurred. Please try again later.",
+  "createAccount": "Create Account",
+  "signUpUserSubtitle": "Sign up as a User",
+  "signUpChefSubtitle": "Sign up as a Chef",
+  "fullName": "Full Name",
+  "enterFullName": "Enter your full name",
+  "phoneNumber": "Phone Number",
+  "enterPhone": "Enter your phone number",
+  "address": "Address",
+  "enterAddress": "Enter your address manually or use GPS above",
+  "enterEmail": "Enter your email",
+  "enterPassword": "Enter your password",
+  "confirmPassword": "Confirm Password",
+  "confirmYourPassword": "Confirm your password",
+  "signUp": "Sign Up",
+  "passwordsMismatch": "Passwords don't match",
+  "experience": "Experience",
+  "experienceHint": "Years / details",
+  "speciality": "Speciality",
+  "certificate": "Certificate",
+  "chefSignUp": "Sign Up as Chef",
+  "drawerAllChefs": "All Chefs",
+  "drawerNewRequest": "New Request",
+  "drawerMessages": "Messages",
+  "drawerMyOrders": "My Orders",
+  "drawerOrderCalendar": "Order calendar",
+  "drawerMyProfile": "My Profile",
+  "drawerLogout": "Logout",
+  "drawerAllOrders": "All Orders",
+  "chefRequestsTitle": "Requests",
+  "noRequestsAvailable": "No requests available.",
+  "pleaseEnterFare": "Please enter a price",
+  "clientBookedYou": "Client booked you for this",
+  "allChefsTitle": "All Chefs",
+  "searchChefByName": "Search chef by name",
+  "allLocations": "All locations",
+  "noChefMatchSearch": "No chefs match \"{query}\"",
+  "@noChefMatchSearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "tryAnotherChefName": "Try another name",
+  "tryWidenLocationFilter": "Try another name, or widen the location filter",
+  "noChefsInCity": "No chefs in {city}",
+  "@noChefsInCity": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "chooseAllLocationsOrCity": "Choose All locations or another city filter",
+  "noChefsAvailable": "No chefs available",
+  "bookThisChef": "Book this chef",
+  "signInToBookChef": "Please sign in to book a chef.",
+  "cannotBookSelf": "You cannot book yourself.",
+  "chefDetailsTitle": "Chef Details",
+  "noChefSelected": "No chef selected",
+  "chefProfileSection": "Chef profile",
+  "certificateSection": "Certificate",
+  "chefExperienceInfo": "Experience",
+  "chefSpecialtiesInfo": "Specialties",
+  "chefAddressInfo": "Address",
+  "chefPhoneInfo": "Phone",
+  "chefEmailInfo": "Email",
+  "reviewsSection": "Reviews",
+  "messageChefAboutOrder": "Message about this booking",
+  "createRequestTitle": "Create Request",
+  "bookAChefTitle": "Book a chef",
+  "bookingForChefBanner": "Booking request for: {name}\\nOnly this chef will see this job until you accept an offer.",
+  "@bookingForChefBanner": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "foodItemName": "Food Item Name",
+  "enterFoodItem": "Enter food item name",
+  "dateLabel": "Date",
+  "selectDateHint": "Select date",
+  "arrivalTimeLabel": "Arrival Time",
+  "eventTimeLabel": "Event Time",
+  "numberOfPeople": "Number of People",
+  "enterPeopleCount": "Enter number of people",
+  "fareLabel": "Price",
+  "enterFare": "Enter price amount",
+  "submitNewPriceTitle": "Submit new price",
+  "enterNewPriceHint": "Enter new price amount",
+  "priceUpdatedApproveRequest": "Price {amount} updated. Please approve the request!",
+  "@priceUpdatedApproveRequest": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "availableIngredientsLabel": "Available Ingredients",
+  "ingredientsHint": "List available ingredients",
+  "submitRequest": "Submit Request",
+  "pleaseSelectEventTimeFirst": "Please select the event time first",
+  "processingRequest": "Processing Request...",
+  "requestSubmittedSuccess": "Request Submitted Successfully!",
+  "requestSentAvailableChefs": "Your request has been sent to available chefs.",
+  "requestSentSpecificChef": "Your request was sent to {name}. They can respond with an offer.",
+  "@requestSentSpecificChef": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "okButton": "OK",
+  "myOrdersTitle": "My Orders",
+  "locationHelpLine": "You can use your current location or type your address below.",
+  "useCurrentLocation": "Use current location",
+  "gettingLocation": "Getting location…",
+  "notificationFallbackTitle": "Notification",
+  "notificationFallbackOk": "OK",
+  "accountDeleteEnterPassword": "Enter your password to confirm.",
+  "accountDeletedToast": "Your account has been deleted.",
+  "loginSuccessful": "Login Successful",
+  "chiefAccountCreated": "Chief Account Created",
+  "userAccountCreated": "User Account Created",
+  "requestAddedSuccess": "Request Added Successfully",
+  "orderNotFound": "Order not found.",
+  "orderExpiredToast": "This order has expired.",
+  "requestAcceptedToast": "Request accepted.",
+  "requestRejectedToast": "Request rejected.",
+  "orderCompletedToast": "order completed",
+  "pleaseSignInAgain": "Please sign in again.",
+  "profileUpdated": "Profile updated",
+  "passwordUpdatedToast": "Password updated",
+  "noEmailOnAccount": "No email on this account.",
+  "requestMovedMyOrders": "Request moved to My Orders",
+  "errorUpdatingRequest": "Error updating request: {error}",
+  "@errorUpdatingRequest": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "errorAcceptingRequest": "Error accepting request: {error}",
+  "@errorAcceptingRequest": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "requestAcceptedByUser": "Request accepted by user.",
+  "requestDeletedSuccess": "Request successfully deleted",
+  "requestDeleteError": "Error deleting request: {error}",
+  "@requestDeleteError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "mustBeLoggedInRating": "You must be logged in to submit a rating.",
+  "thankYouFeedback": "Thank you for your feedback!",
+  "errorRating": "Error submitting rating: {error}",
+  "@errorRating": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "forgotPasswordScreenTitle": "Forgot Password",
+  "submit": "Submit",
+  "workExperienceYearsLabel": "Work Experience (Years)",
+  "workExperienceHint": "Enter your work experience",
+  "specialitiesHint": "Enter your specialities",
+  "certificationsTitle": "Certifications",
+  "certificateUploaded": "Certificate uploaded",
+  "uploadCertificate": "Upload certificate",
+  "pickCamera": "Camera",
+  "pickGallery": "Gallery",
+  "errorTitle": "Error",
+  "submitRequestFailed": "Failed to submit request. Please try again.",
+  "exitFormTitle": "Exit Form",
+  "exitFormMessage": "Are you sure you want to exit? Your changes will be lost.",
+  "cancelButton": "Cancel",
+  "exitConfirmButton": "Exit",
+  "arrivalBeforeEventToast": "Arrival time must be at least 1 hour before event time",
+  "pleaseEnterField": "Please enter {field}",
+  "@pleaseEnterField": {
+    "placeholders": {
+      "field": {
+        "type": "String"
+      }
+    }
+  },
+  "thisChefLabel": "This chef",
+  "theChefFallback": "the chef",
+  "selectTimeHint": "Select time",
+  "bookingForChefLine1": "Booking request for: {name}",
+  "@bookingForChefLine1": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "bookingForChefLine2": "Only this chef will see this job until you accept an offer.",
+  "chefOrdersCalendarTitle": "My order calendar",
+  "userOrdersSearchHint": "🔍 Search order by dish name",
+  "chefsSearchPrefixHint": "🔍 ",
+  "noOrdersMatchSearch": "No orders match your search.",
+  "orderListFarePending": "Pending",
+  "orderCardIngredientsHeading": "🥕 Ingredients",
+  "orderViewChefDetails": "View Chef Details",
+  "orderWaitingChefAcceptance": "⏳ Waiting for chef acceptance",
+  "orderWaitingChefOffers": "Waiting for chef offers.",
+  "orderExpiredLine": "Expired — event date has passed.",
+  "rateChefButton": "⭐ Rate Chef",
+  "emptyOrdersAll": "No orders yet.",
+  "emptyOrdersPending": "No pending requests at the moment.",
+  "emptyOrdersExpired": "No expired orders.",
+  "emptyOrdersAssigned": "No assigned orders.",
+  "emptyOrdersCompleted": "No completed orders.",
+  "orderStatusPending": "Pending",
+  "orderStatusAssigned": "Assigned",
+  "orderStatusCompleted": "Completed",
+  "orderStatusExpired": "Expired",
+  "orderStatusUnknown": "Unknown",
+  "orderLabelPeopleEmoji": "👨‍👩‍👧",
+  "errorWithMessage": "Error: {message}",
+  "@errorWithMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "noOrdersOnDate": "No orders on {date}",
+  "@noOrdersOnDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "notAvailableAbbrev": "N/A",
+  "chefCardChefChip": "👨‍🍳 Chef",
+  "chefCardExperienceRow": "🧑‍🍳 Experience",
+  "chefCardContactRow": "📞 Contact",
+  "chefCardAddressRow": "📍 Address",
+  "chefCardEmailRow": "📧 Email",
+  "chefCardNoRatings": "⭐ No ratings yet",
+  "chefCardReviewsCount": " ({count} reviews)",
+  "@chefCardReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewNoWrittenFeedback": "No written feedback",
+  "profileLoadErrorBody": "Could not load your profile. Please sign out and sign in again.",
+  "profileAccountDetailsHeading": "Account details",
+  "profileYourNameHint": "Your name",
+  "profileValidatorNameShort": "Enter your name",
+  "profileValidatorPhoneShort": "Enter a valid number",
+  "profileSaveChanges": "Save profile",
+  "profileChangePasswordHeading": "Change password",
+  "profilePasswordIntro": "You must enter your current password to set a new one.",
+  "profileCurrentPassword": "Current password",
+  "profileNewPassword": "New password",
+  "profileConfirmNewPassword": "Confirm new password",
+  "validatorRequired": "Required",
+  "validatorPasswordMinSix": "At least 6 characters",
+  "validatorPasswordsNoMatchAlt": "Passwords do not match",
+  "profileUpdatePasswordButton": "Update password",
+  "profileDeleteAccountHeading": "Delete account",
+  "profileDeleteAccountBlurb": "Permanently remove your Taste Tailor account and associated profile data.",
+  "profileDeleteAccountButton": "Delete my account",
+  "profilePhotoHeading": "Profile photo",
+  "profilePhotoHint": "Tap the camera icon to change your picture",
+  "profilePhotoGallery": "Choose from gallery",
+  "profilePhotoCamera": "Take photo",
+  "profilePhotoDismiss": "Cancel",
+  "privacyPolicyLink": "Privacy Policy",
+  "privacyPolicyOpenFailed": "Could not open the link. Check your internet connection.",
+  "chefProfileLoadErrorBody": "Could not load your chef profile. Please sign out and sign in again.",
+  "orderDetailPeopleShort": "People",
+  "orderDetailDateShort": "Date",
+  "orderDetailArrivalShort": "Arrival",
+  "orderDetailEventShort": "Event",
+  "orderDetailFareShort": "Price"
+}

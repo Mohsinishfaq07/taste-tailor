@@ -1,0 +1,74 @@
+rules_version = '2';
+
+// Deploy: `firebase deploy --only firestore:rules`
+// Console: Firebase → Firestore → Rules — merge the `match /conversations` block into your
+// existing rules if you already maintain custom policies elsewhere.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---- Chat (see lib/services/chat_service.dart) -----------------------------
+    match /conversations/{convId} {
+      allow read: if request.auth != null
+          && request.auth.uid in resource.data.participantIds;
+
+      allow create: if request.auth != null
+          && request.resource.data.participantIds is list
+          && request.resource.data.participantIds.size() == 2
+          && request.auth.uid in request.resource.data.participantIds;
+
+      allow update: if request.auth != null
+          && resource.data.participantIds is list
+          && resource.data.participantIds.size() == 2
+          && request.auth.uid in resource.data.participantIds
+          && request.resource.data.participantIds == resource.data.participantIds;
+
+      allow delete: if request.auth != null
+          && request.auth.uid in resource.data.participantIds;
+
+      match /messages/{msgId} {
+        allow read: if request.auth != null
+            && exists(/databases/$(database)/documents/conversations/$(convId))
+            && request.auth.uid in get(/databases/$(database)/documents/conversations/$(convId)).data.participantIds;
+
+        allow create: if request.auth != null
+            && request.resource.data.senderId == request.auth.uid
+            && exists(/databases/$(database)/documents/conversations/$(convId))
+            && request.auth.uid in get(/databases/$(database)/documents/conversations/$(convId)).data.participantIds;
+
+        allow delete: if request.auth != null
+            && exists(/databases/$(database)/documents/conversations/$(convId))
+            && request.auth.uid in get(/databases/$(database)/documents/conversations/$(convId)).data.participantIds;
+      }
+    }
+
+    // ---- Rest of Taste Tailor (adjust if your app needs public reads) ----------
+    match /allusers/{docId} {
+      allow read, write: if request.auth != null;
+    }
+    match /food_orders/{docId} {
+      allow read, write: if request.auth != null;
+    }
+    match /requests/{docId} {
+      allow read, write: if request.auth != null;
+    }
+    match /chef_offers/{docId} {
+      allow read, write: if request.auth != null;
+    }
+    match /chef_ratings/{docId} {
+      allow read, write: if request.auth != null;
+    }
+    match /new_requestform/{docId} {
+      allow read, write: if request.auth != null;
+    }
+    match /request_form/{docId} {
+      allow read, write: if request.auth != null;
+    }
+    match /accepted_requests/{docId} {
+      allow read, write: if request.auth != null;
+    }
+    match /ratings/{docId} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

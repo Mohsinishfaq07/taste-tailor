@@ -1,0 +1,321 @@
+{
+  "@@locale": "ur",
+  "languageHeading": "زبان",
+  "languageEnglish": "English",
+  "languageHybridChip": "انگریزی + اردو",
+  "appTitle": "باوَرچی ایپ",
+  "splashSubtitle": "ذائقہ کی عمدگی",
+  "getStartedLogin": "لاگ اِن",
+  "getStartedSignUpChef": "شیف کے طور پر رجسٹر کریں",
+  "getStartedSignUpUser": "صارف کے طور پر رجسٹر کریں",
+  "exitAppTitle": "ایپ سے باہر نکلیں",
+  "exitAppMessage": "کیا آپ واقعی ایپ بند کرنا چاہتے ہیں؟",
+  "exitNo": "نہیں",
+  "exitYes": "ہاں",
+  "welcomeBack": "خوش آمدید",
+  "signInContinue": "جاری رکھنے کے لیے سائن اِن کریں",
+  "email": "ای میل",
+  "password": "پاس ورڈ",
+  "forgotPassword": "پاس ورڈ بھول گئے؟",
+  "login": "لاگ اِن",
+  "fillAllFields": "تمام خانے بھریئے",
+  "forgotEnterEmail": "اپنا ای میل درج کریں!",
+  "resetEmailSent": "ری سیٹ ای میل بھیج دی گئی",
+  "enterCorrectEmail": "درست ای میل درج کریں",
+  "resetErrorTryLater": "خرابی آئی ہے۔ بعد میں کوشش کریں۔",
+  "createAccount": "اکاؤنٹ بنائیں",
+  "signUpUserSubtitle": "صارف کے طور پر",
+  "signUpChefSubtitle": "شیف کے طور پر",
+  "fullName": "مکمل نام",
+  "enterFullName": "اپنا مکمل نام",
+  "phoneNumber": "فون نمبر",
+  "enterPhone": "فون نمبر درج کریں",
+  "address": "پتہ",
+  "enterAddress": "دستی پتہ لکھیں یا اوپر سے GPS استعمال کریں",
+  "enterEmail": "ای میل درج کریں",
+  "enterPassword": "پاس ورڈ درج کریں",
+  "confirmPassword": "پاس ورڈ کی تصدیق",
+  "confirmYourPassword": "پاس ورڈ دوبارہ درج کریں",
+  "signUp": "سائن اپ",
+  "passwordsMismatch": "پاس ورڈ یکساں نہیں",
+  "experience": "تجربہ",
+  "experienceHint": "سال / تفصیل",
+  "speciality": "مہارت",
+  "certificate": "سرٹیفکیٹ",
+  "chefSignUp": "شیف اکاؤنٹ بنائیں",
+  "drawerAllChefs": "تمام شیفز",
+  "drawerNewRequest": "نئی درخواست",
+  "drawerMessages": "پیغامات",
+  "drawerMyOrders": "میرے آرڈرز",
+  "drawerOrderCalendar": "آرڈر کیلنڈر",
+  "drawerMyProfile": "میری پروفائل",
+  "drawerLogout": "لاگ آؤٹ",
+  "drawerAllOrders": "تمام آرڈرز",
+  "chefRequestsTitle": "درخواستیں",
+  "noRequestsAvailable": "کوئی درخواست موجود نہیں۔",
+  "pleaseEnterFare": "قیمت درج کریں",
+  "clientBookedYou": "گاہک نے آپ کو منتخب کیا",
+  "allChefsTitle": "تمام شیفز",
+  "searchChefByName": "نام سے شیف تلاش کریں",
+  "allLocations": "تمام مقامات",
+  "noChefMatchSearch": "\"{query}\" سے کوئی شیف نہیں ملا",
+  "@noChefMatchSearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "tryAnotherChefName": "کوئی اور نام آزمائیں",
+  "tryWidenLocationFilter": "دوسرا نام یا مقام وسعت دیں",
+  "noChefsInCity": "{city} میں کوئی شیف نہیں",
+  "@noChefsInCity": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "chooseAllLocationsOrCity": "'تمام مقامات' یا دوسرے شہر پر جائیں",
+  "noChefsAvailable": "کوئی شیف دستیاب نہیں",
+  "bookThisChef": "اس شیف کو بُک کریں",
+  "signInToBookChef": "شیف بُک کرنے کے لیے سائن اِن کریں۔",
+  "cannotBookSelf": "اپنے آپ کو بُک نہیں کر سکتے۔",
+  "chefDetailsTitle": "شیف کی تفصیل",
+  "noChefSelected": "کوئی شیف نہیں",
+  "chefProfileSection": "شیف کا پروفائل",
+  "certificateSection": "سرٹیفکیٹ",
+  "chefExperienceInfo": "تجربہ",
+  "chefSpecialtiesInfo": "مہارت",
+  "chefAddressInfo": "پتہ",
+  "chefPhoneInfo": "فون",
+  "chefEmailInfo": "ای میل",
+  "reviewsSection": "جائزے",
+  "messageChefAboutOrder": "بُکنگ کے بارے میں پیغام",
+  "createRequestTitle": "درخواست بنائیں",
+  "bookAChefTitle": "شیف کو بُک کریں",
+  "bookingForChefBanner": "بُکنگ: {name}\\nمنتخب شیف ہی یہ کام دیکھے گا جب تک آپ آفر قبول نہیں کرتے۔",
+  "@bookingForChefBanner": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "foodItemName": "کھانے کی قسم",
+  "enterFoodItem": "نام درج کریں",
+  "dateLabel": "تاریخ",
+  "selectDateHint": "تاریخ چنیں",
+  "arrivalTimeLabel": "پہنچنے کا وقت",
+  "eventTimeLabel": "وقتٔ تقریب",
+  "numberOfPeople": "افراد کی تعداد",
+  "enterPeopleCount": "تعداد درج کریں",
+  "fareLabel": "قیمت",
+  "enterFare": "قیمت درج کریں",
+  "submitNewPriceTitle": "نئی قیمت بھیجیں",
+  "enterNewPriceHint": "نئی قیمت درج کریں",
+  "priceUpdatedApproveRequest": "قیمت {amount} اپ ڈیٹ ہو گئی۔ براہ کرم درخواست منظور کریں۔",
+  "@priceUpdatedApproveRequest": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "availableIngredientsLabel": "دستیاب اجزاء",
+  "ingredientsHint": "اجزاء لکھیں",
+  "submitRequest": "درخواست بھیجیں",
+  "pleaseSelectEventTimeFirst": "پہلے تقریب کا وقت چنیں",
+  "processingRequest": "عمل جاری ہے...",
+  "requestSubmittedSuccess": "درخواست کامیابی سے بھیجی گئی!",
+  "requestSentAvailableChefs": "درخواست دستیاب شیفز تک بھیجی گئی ہے۔",
+  "requestSentSpecificChef": "درخواست {name} کو بھیجی گئی۔ وہ آفر بھیج سکتے ہیں۔",
+  "@requestSentSpecificChef": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "okButton": "ٹھیک",
+  "myOrdersTitle": "میرے آرڈرز",
+  "locationHelpLine": "موجودہ مقام یا نیچے پتہ دستی طور پر لکھیں۔",
+  "useCurrentLocation": "موجودہ مقام استعمال کریں",
+  "gettingLocation": "لوکیشن لو ہو رہی ہے…",
+  "notificationFallbackTitle": "اطلاع",
+  "notificationFallbackOk": "ٹھیک",
+  "accountDeleteEnterPassword": "تصدیق کے لیے اپنا پاس ورڈ درج کریں۔",
+  "accountDeletedToast": "آپ کا اکاؤنٹ ڈیلیٹ ہو گیا ہے۔",
+  "loginSuccessful": "لاگ اِن کامیاب",
+  "chiefAccountCreated": "شیف اکاؤنٹ بنا دیا گیا",
+  "userAccountCreated": "صارف اکاؤنٹ بنا دیا گیا",
+  "requestAddedSuccess": "درخواست شامل ہو گئی",
+  "orderNotFound": "آرڈر نہیں ملا۔",
+  "orderExpiredToast": "یہ آرڈر ختم ہو چکا۔",
+  "requestAcceptedToast": "درخواست قبول۔",
+  "requestRejectedToast": "درخواست مسترد۔",
+  "orderCompletedToast": "آرڈر مکمل",
+  "pleaseSignInAgain": "براہ کرم دوبارہ سائن اِن کریں۔",
+  "profileUpdated": "پروفائل اپ ڈیٹ",
+  "passwordUpdatedToast": "پاس ورڈ اپ ڈیٹ",
+  "noEmailOnAccount": "اکاؤنٹ پر ای میل نہیں۔",
+  "requestMovedMyOrders": "درخواست میرے آرڈرز میں منتقل",
+  "errorUpdatingRequest": "اپ ڈیٹ میں خرابی: {error}",
+  "@errorUpdatingRequest": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "errorAcceptingRequest": "قبول کرنے میں خرابی: {error}",
+  "@errorAcceptingRequest": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "requestAcceptedByUser": "صارف نے قبول کر لیا۔",
+  "requestDeletedSuccess": "درخواست حذف ہو گئی",
+  "requestDeleteError": "حذف میں خرابی: {error}",
+  "@requestDeleteError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "mustBeLoggedInRating": "ریٹنگ کے لیے سائن اِن ضروری ہے۔",
+  "thankYouFeedback": "آپ کا شکریہ!",
+  "errorRating": "ریٹنگ میں خرابی: {error}",
+  "@errorRating": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "forgotPasswordScreenTitle": "پاس ورڈ بھول گئے",
+  "submit": "جمع کرائیں",
+  "workExperienceYearsLabel": "کام کا تجربہ (سال)",
+  "workExperienceHint": "اپنا تجربہ درج کریں",
+  "specialitiesHint": "مہارتیں درج کریں",
+  "certificationsTitle": "سرٹیفیکیٹس",
+  "certificateUploaded": "سرٹیفیکیٹ اپ لوڈ ہو گیا",
+  "uploadCertificate": "سرٹیفیکیٹ اپ لوڈ کریں",
+  "pickCamera": "کیمرہ",
+  "pickGallery": "گیلری",
+  "errorTitle": "خرابی",
+  "submitRequestFailed": "درخواست بھیجنے میں ناکامی۔ دوبارہ کوشش کریں۔",
+  "exitFormTitle": "فارم چھوڑیں",
+  "exitFormMessage": "کیا آپ یقیناً باہر نکلنا چاہتے ہیں؟ آپ کی تبدیلیاں ضائع ہو جائیں گی۔",
+  "cancelButton": "منسوخ",
+  "exitConfirmButton": "باہر نکلیں",
+  "arrivalBeforeEventToast": "پہنچنے کا وقت تقریب سے کم از کم ایک گھنٹہ پہلے ہونا چاہیے",
+  "pleaseEnterField": "{field} درج کریں",
+  "@pleaseEnterField": {
+    "placeholders": {
+      "field": {
+        "type": "String"
+      }
+    }
+  },
+  "thisChefLabel": "یہ شیف",
+  "theChefFallback": "شیف",
+  "selectTimeHint": "وقت چنیں",
+  "bookingForChefLine1": "بُکنگ درخواست: {name}",
+  "@bookingForChefLine1": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "bookingForChefLine2": "منتخب شیف ہی یہ کام دیکھے گا جب تک آپ آفر قبول نہیں کرتے۔",
+  "chefOrdersCalendarTitle": "میرا آرڈر کیلنڈر",
+  "userOrdersSearchHint": "🔍 ڈش کے نام سے آرڈر تلاش کریں",
+  "chefsSearchPrefixHint": "🔍 ",
+  "noOrdersMatchSearch": "تلاش سے کوئی آرڈر نہیں ملا۔",
+  "orderListFarePending": "زیر التواء",
+  "orderCardIngredientsHeading": "🥕 اجزاء",
+  "orderViewChefDetails": "شیف کی تفصیل دیکھیں",
+  "orderWaitingChefAcceptance": "⏳ شیف کی قبولیت کا انتظار",
+  "orderWaitingChefOffers": "شیف کی پیشکشوں کا انتظار۔",
+  "orderExpiredLine": "ختم — تقریب کی تاریخ گزر چکی ہے۔",
+  "rateChefButton": "⭐ شیف کو ریٹ کریں",
+  "emptyOrdersAll": "ابھی کوئی آرڈر نہیں۔",
+  "emptyOrdersPending": "اس وقت کوئی زیرِ التواء درخواست نہیں۔",
+  "emptyOrdersExpired": "کوئی ختم شدہ آرڈر نہیں۔",
+  "emptyOrdersAssigned": "کوئی تفویض شدہ آرڈر نہیں۔",
+  "emptyOrdersCompleted": "کوئی مکمل آرڈر نہیں۔",
+  "orderStatusPending": "زیر التواء",
+  "orderStatusAssigned": "تفویض",
+  "orderStatusCompleted": "مکمل",
+  "orderStatusExpired": "ختم",
+  "orderStatusUnknown": "نامعلوم",
+  "orderLabelPeopleEmoji": "👨‍👩‍👧",
+  "errorWithMessage": "خرابی: {message}",
+  "@errorWithMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "noOrdersOnDate": "{date} کو کوئی آرڈر نہیں",
+  "@noOrdersOnDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "notAvailableAbbrev": "دستیاب نہیں",
+  "chefCardChefChip": "👨‍🍳 شیف",
+  "chefCardExperienceRow": "🧑‍🍳 تجربہ",
+  "chefCardContactRow": "📞 رابطہ",
+  "chefCardAddressRow": "📍 پتہ",
+  "chefCardEmailRow": "📧 ای میل",
+  "chefCardNoRatings": "⭐ ابھی کوئی ریٹنگ نہیں",
+  "chefCardReviewsCount": " ({count} جائزے)",
+  "@chefCardReviewsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reviewNoWrittenFeedback": "تحریری رائے نہیں",
+  "profileLoadErrorBody": "پروفائل لوڈ نہیں ہو سکی۔ براہ کرم سائن آؤٹ کر کے دوبارہ سائن اِن کریں۔",
+  "profileAccountDetailsHeading": "اکاؤنٹ کی تفصیلات",
+  "profileYourNameHint": "آپ کا نام",
+  "profileValidatorNameShort": "نام درج کریں",
+  "profileValidatorPhoneShort": "درست نمبر درج کریں",
+  "profileSaveChanges": "پروفائل محفوظ کریں",
+  "profileChangePasswordHeading": "پاس ورڈ تبدیل کریں",
+  "profilePasswordIntro": "نیا پاس ورڈ سیٹ کرنے کے لیے موجودہ پاس ورڈ درج کرنا ضروری ہے۔",
+  "profileCurrentPassword": "موجودہ پاس ورڈ",
+  "profileNewPassword": "نیا پاس ورڈ",
+  "profileConfirmNewPassword": "نئے پاس ورڈ کی تصدیق",
+  "validatorRequired": "ضروری",
+  "validatorPasswordMinSix": "کم از کم 6 حروف",
+  "validatorPasswordsNoMatchAlt": "پاس ورڈ یکساں نہیں",
+  "profileUpdatePasswordButton": "پاس ورڈ اپ ڈیٹ",
+  "profileDeleteAccountHeading": "اکاؤنٹ حذف کریں",
+  "profileDeleteAccountBlurb": "اپنا Taste Tailor اکاؤنٹ اور منسلک ڈیٹا مستقل طور پر ہٹائیں۔",
+  "profileDeleteAccountButton": "میرا اکاؤنٹ حذف کریں",
+  "profilePhotoHeading": "پروفائل تصویر",
+  "profilePhotoHint": "تصویر بدلنے کے لیے کیمرے کے آئیکن پر ٹیپ کریں",
+  "profilePhotoGallery": "گیلری سے منتخب کریں",
+  "profilePhotoCamera": "تصویر لیں",
+  "profilePhotoDismiss": "منسوخ",
+  "privacyPolicyLink": "پرائیویسی پالیسی",
+  "privacyPolicyOpenFailed": "لنک نہیں کھل سکا۔ انٹرنیٹ چیک کریں۔",
+  "chefProfileLoadErrorBody": "شیف پروفائل لوڈ نہیں ہو سکی۔ سائن آؤٹ کر کے دوبارہ سائن اِن کریں۔",
+  "orderDetailPeopleShort": "افراد",
+  "orderDetailDateShort": "تاریخ",
+  "orderDetailArrivalShort": "پہنچ",
+  "orderDetailEventShort": "تقریب",
+  "orderDetailFareShort": "قیمت"
+}

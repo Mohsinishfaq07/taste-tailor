@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "920472420101",
+    "project_id": "chefselecta-c857a",
+    "storage_bucket": "chefselecta-c857a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920472420101:android:38a0f2dce1f37874f3016c",
+        "android_client_info": {
+          "package_name": "com.app.taste_tailor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6LvJmY4OVdTK3saplVqiS8KETvhx1crk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ],
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "chefselecta-c857a",
+          "appId": "1:920472420101:android:38a0f2dce1f37874f3016c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "chefselecta-c857a",
+          "appId": "1:920472420101:ios:989054e16fc645b5f3016c",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "chefselecta-c857a",
+          "configurations": {
+            "android": "1:920472420101:android:38a0f2dce1f37874f3016c",
+            "ios": "1:920472420101:ios:989054e16fc645b5f3016c"
+          }
+        }
+      }
+    }
+  }
+}
